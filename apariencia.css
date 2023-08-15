@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font: Times;
+    font-size: 12px;
+}
+
+.btn {
+    /*Dar estilo al Boton */
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgb(248, 247, 247);
+    box-shadow: 0 1px 1px rgba(red, green, blue, alpha);
+    width: 200px;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.formulario {
+    /*Dar estilo a formulario */
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgb(223, 222, 222);
+    padding: 8px;
+    color: rgb(85, 83, 83);
+    /*Color letra*/
+    border-radius: 5px;
+    /*Borde*/
+}
+
+.nombre {
+    border: 0;
+    outline: none;
+    border: solid 1px #999;
+    padding: 3px;
+    width: 395px;
+}
+
+.valorPrestamo {
+    border: 0;
+    outline: none;
+    border: solid 1px #999;
+    padding: 3px;
+    width: 395px;
+}
+
+.NoCuotas{
+    border: 0;
+    outline: none;
+    border: solid 1px #999;
+    padding: 3px;
+    width: 395px;
+}
+
+/*Estilos tabla*/
+#Tabla1 {
+    margin: auto;
+    width: 80%;
+}
+
+th {
+    background-color: rgb(167, 164, 164);
+    color: black;
+    height: 30px;
+    font: Times;
+    font-size: 12px;
+
+}
+
+#Tabla {
+    width: 80%;
+    /*Se da tamaño a tabla del 80%*/
+    border: 2px solid black;
+    /*Se da borde negro de 2px*/
+    border-collapse: collapse;
+    /*Se fusionan bordes*/
+    margin-left: auto;
+    /*Se centra tabla*/
+    margin-right: auto;
+    /*Se centra tabla*/
+    table-layout: fixed;
+    text-align: center;
+    font: Times;
+    font-size: 12px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(167, 164, 164);
+}
